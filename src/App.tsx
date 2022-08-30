@@ -1,3 +1,4 @@
+import Header from "./components/Header";
 import StoreProvider from "./store/StoreProvider";
 
 function App() {
@@ -5,9 +6,7 @@ function App() {
   return (
     <StoreProvider>
       <div className="App">
-        <header>
-          <h1>Hello World</h1>              
-        </header>    
+        <Header />    
       </div>
     </StoreProvider>
   );
