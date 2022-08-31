@@ -6,7 +6,7 @@ function App() {
   return (
     <StoreProvider>
       <div className="App">
-        <Header />    
+        <Header />
       </div>
     </StoreProvider>
   );
